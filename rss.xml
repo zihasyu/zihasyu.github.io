@@ -10,18 +10,18 @@
         </author>
         <description>Hope friends and I can get the happiness we deserve</description>
         <language>en</language>
-        <pubDate>Fri, 23 Aug 2024 23:39:40 +0800</pubDate>
-        <lastBuildDate>Fri, 23 Aug 2024 23:39:40 +0800</lastBuildDate>
+        <pubDate>Thu, 23 Aug 20204 23:39:40 +0800</pubDate>
+        <lastBuildDate>Thu, 23 Aug 20204 23:39:40 +0800</lastBuildDate>
         <category term="Storage system" />
         <item>
-            <guid isPermalink="true">http://example.com/2024/08/23/Deduplication/</guid>
-            <title>24-8-23 Data Compression &amp; Data Deduplication</title>
-            <link>http://example.com/2024/08/23/Deduplication/</link>
+            <guid isPermalink="true">http://example.com/20204/08/23/24-8-23-chat-note/</guid>
+            <title>chat-note:Data Compression &amp; Data Deduplication</title>
+            <link>http://example.com/20204/08/23/24-8-23-chat-note/</link>
             <category term="Compression algorithms" scheme="http://example.com/categories/Compression-algorithms/" />
             <category term="chat note" scheme="http://example.com/categories/Compression-algorithms/chat-note/" />
             <category term="Compression" scheme="http://example.com/tags/Compression/" />
             <category term="Storage system" scheme="http://example.com/tags/Storage-system/" />
-            <pubDate>Fri, 23 Aug 2024 23:39:40 +0800</pubDate>
+            <pubDate>Thu, 23 Aug 20204 23:39:40 +0800</pubDate>
             <description><![CDATA[ &lt;h4 id=&#34;q1-why-is-there-such-a-significant-difference-between-huffman-type-compression-and-post-chunking-compression-are-they-considered-separate-fields-what-are-their-connections-and-differences&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#q1-why-is-there-such-a-significant-difference-between-huffman-type-compression-and-post-chunking-compression-are-they-considered-separate-fields-what-are-their-connections-and-differences&#34;&gt;#&lt;/a&gt; Q1: Why is there such a significant difference between Huffman-type compression and post-chunking compression? Are they considered separate fields? What are their connections and differences?&lt;/h4&gt;
 &lt;pre&gt;&lt;code&gt;我看信息论及其衍生出来的压缩方法都强调distance，例如窗口大小为32K时，他最多用distance为32576的字符串来去重。去重后再进行huffman编码来减少存储开销。  
 而在备份系统中因为chunking的存在，没有distance这个限制，完全可以与几百GiB之前的数据块进行压缩，但相应的chunking后的压缩算法需要recipe来记录源数据（用来解压）。  
@@ -370,9 +370,9 @@ chunking方法在这个例子中的惊人效果并不是突破了香农极限，
             <category term="Compression algorithms" scheme="http://example.com/categories/Compression-algorithms/" />
             <category term="Compression" scheme="http://example.com/tags/Compression/" />
             <category term="Storage system" scheme="http://example.com/tags/Storage-system/" />
+            <category term="Feature-based" scheme="http://example.com/tags/Feature-based/" />
             <category term="Operating system" scheme="http://example.com/tags/Operating-system/" />
             <category term="Computer science" scheme="http://example.com/tags/Computer-science/" />
-            <category term="Feature-based" scheme="http://example.com/tags/Feature-based/" />
             <pubDate>Wed, 31 Jul 2024 00:50:44 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;fearture-based-delta共性&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#fearture-based-delta共性&#34;&gt;#&lt;/a&gt; Fearture-based  Delta 共性&lt;/h2&gt;
 &lt;h3 id=&#34;delta-compression-系统流程图&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#delta-compression-系统流程图&#34;&gt;#&lt;/a&gt; Delta Compression 系统流程图&lt;/h3&gt;
@@ -450,11 +450,11 @@ Deduplication 能过滤掉重复块，即 savesize 为 0，只留下一个 recip
             <title>Chunking summary</title>
             <link>http://example.com/2024/07/04/Summary%20of%20Chunking/</link>
             <category term="Compression algorithms" scheme="http://example.com/categories/Compression-algorithms/" />
-            <category term="Chunking" scheme="http://example.com/tags/Chunking/" />
             <category term="Compression" scheme="http://example.com/tags/Compression/" />
             <category term="Storage system" scheme="http://example.com/tags/Storage-system/" />
             <category term="Operating system" scheme="http://example.com/tags/Operating-system/" />
             <category term="Computer science" scheme="http://example.com/tags/Computer-science/" />
+            <category term="Chunking" scheme="http://example.com/tags/Chunking/" />
             <pubDate>Thu, 04 Jul 2024 19:48:04 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;chunking-flow&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#chunking-flow&#34;&gt;#&lt;/a&gt; Chunking flow&lt;/h2&gt;
 &lt;h3 id=&#34;flow-chart&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#flow-chart&#34;&gt;#&lt;/a&gt; Flow chart&lt;/h3&gt;

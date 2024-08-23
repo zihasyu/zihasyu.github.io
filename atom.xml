@@ -8,12 +8,12 @@
     <author>
       <name>Zihasyu</name>
     </author>
-    <updated>2024-08-23T15:39:40.000Z</updated>
+    <updated>+020204-08-23T15:39:40.000Z</updated>
     <category term="Storage system" />
     <entry>
-        <id>http://example.com/2024/08/23/Deduplication/</id>
-        <title>24-8-23 Data Compression &amp; Data Deduplication</title>
-        <link rel="alternate" href="http://example.com/2024/08/23/Deduplication/"/>
+        <id>http://example.com/20204/08/23/24-8-23-chat-note/</id>
+        <title>chat-note:Data Compression &amp; Data Deduplication</title>
+        <link rel="alternate" href="http://example.com/20204/08/23/24-8-23-chat-note/"/>
         <content type="html">&lt;h4 id=&#34;q1-why-is-there-such-a-significant-difference-between-huffman-type-compression-and-post-chunking-compression-are-they-considered-separate-fields-what-are-their-connections-and-differences&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#q1-why-is-there-such-a-significant-difference-between-huffman-type-compression-and-post-chunking-compression-are-they-considered-separate-fields-what-are-their-connections-and-differences&#34;&gt;#&lt;/a&gt; Q1: Why is there such a significant difference between Huffman-type compression and post-chunking compression? Are they considered separate fields? What are their connections and differences?&lt;/h4&gt;
 &lt;pre&gt;&lt;code&gt;我看信息论及其衍生出来的压缩方法都强调distance，例如窗口大小为32K时，他最多用distance为32576的字符串来去重。去重后再进行huffman编码来减少存储开销。  
 而在备份系统中因为chunking的存在，没有distance这个限制，完全可以与几百GiB之前的数据块进行压缩，但相应的chunking后的压缩算法需要recipe来记录源数据（用来解压）。  
@@ -358,7 +358,7 @@ chunking方法在这个例子中的惊人效果并不是突破了香农极限，
         <category term="chat note" scheme="http://example.com/categories/Compression-algorithms/chat-note/" />
         <category term="Compression" scheme="http://example.com/tags/Compression/" />
         <category term="Storage system" scheme="http://example.com/tags/Storage-system/" />
-        <updated>2024-08-23T15:39:40.000Z</updated>
+        <updated>+020204-08-23T15:39:40.000Z</updated>
     </entry>
     <entry>
         <id>http://example.com/2024/07/31/Feature-based-Delta-Summary/</id>
@@ -420,9 +420,9 @@ Deduplication 能过滤掉重复块，即 savesize 为 0，只留下一个 recip
         <category term="Compression algorithms" scheme="http://example.com/categories/Compression-algorithms/" />
         <category term="Compression" scheme="http://example.com/tags/Compression/" />
         <category term="Storage system" scheme="http://example.com/tags/Storage-system/" />
+        <category term="Feature-based" scheme="http://example.com/tags/Feature-based/" />
         <category term="Operating system" scheme="http://example.com/tags/Operating-system/" />
         <category term="Computer science" scheme="http://example.com/tags/Computer-science/" />
-        <category term="Feature-based" scheme="http://example.com/tags/Feature-based/" />
         <updated>2024-07-30T16:50:44.000Z</updated>
     </entry>
     <entry>
@@ -471,11 +471,11 @@ when the ReadFileBuffer is about to reach the end, we need to seekg the next beg
 &lt;p&gt;The chunking method is a part of the compression system that determines the theoretical upper bound. If the obtained chunk contains extremely high boundary offset, then the best feature value selection method cannot obtain excellent results.&lt;/p&gt;
 </content>
         <category term="Compression algorithms" scheme="http://example.com/categories/Compression-algorithms/" />
-        <category term="Chunking" scheme="http://example.com/tags/Chunking/" />
         <category term="Compression" scheme="http://example.com/tags/Compression/" />
         <category term="Storage system" scheme="http://example.com/tags/Storage-system/" />
         <category term="Operating system" scheme="http://example.com/tags/Operating-system/" />
         <category term="Computer science" scheme="http://example.com/tags/Computer-science/" />
+        <category term="Chunking" scheme="http://example.com/tags/Chunking/" />
         <updated>2024-07-04T11:48:04.000Z</updated>
     </entry>
 </feed>
